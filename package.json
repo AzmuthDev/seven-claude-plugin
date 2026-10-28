@@ -1,0 +1,10 @@
+{
+  "name": "seven-claude-plugin",
+  "private": true,
+  "scripts": {
+    "test": "node --test \"tests/*.test.mjs\""
+  },
+  "devDependencies": {
+    "jszip": "^3.10.2"
+  }
+}

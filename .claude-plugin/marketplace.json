@@ -1,0 +1,16 @@
+{
+  "name": "seven",
+  "owner": {
+    "name": "Googlar Strategy"
+  },
+  "metadata": {
+    "description": "Plugins do Seven Workspace para o Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "seven",
+      "source": "./seven",
+      "description": "Publica landing pages no Seven direto do Claude Code."
+    }
+  ]
+}
