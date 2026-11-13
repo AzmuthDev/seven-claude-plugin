@@ -1,7 +1,7 @@
 {
   "name": "seven",
-  "version": "1.0.0",
-  "description": "Publica landing pages no Seven direto do Claude Code.",
+  "version": "1.1.0",
+  "description": "Publica landing pages no Seven e conecta o Claude Code ao servidor MCP do Seven.",
   "author": {
     "name": "Googlar Strategy"
   }

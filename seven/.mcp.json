@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "seven": {
+      "type": "http",
+      "url": "${SEVEN_URL}/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${SEVEN_TOKEN}"
+      }
+    }
+  }
+}

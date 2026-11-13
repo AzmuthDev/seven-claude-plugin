@@ -39,7 +39,27 @@ claude plugin install seven@seven
 
 Reinicie o Claude Code.
 
-## 4. Use
+## 4. Servidor MCP do Seven
+
+O plugin também declara o servidor MCP do Seven (`seven/.mcp.json`), usando as mesmas variáveis `SEVEN_URL` e `SEVEN_TOKEN` do passo 2. Depois de reiniciar o Claude Code, o servidor `seven` aparece em `/mcp` e dá acesso a áreas de trabalho, quadros, tarefas, notas, mapas mentais, Repositório e landing pages, sempre com as permissões do dono do token.
+
+Sem o plugin, dá para conectar direto:
+
+```bash
+claude mcp add --transport http seven https://seven.googlar.com.br/api/mcp --header "Authorization: Bearer <seu token>"
+```
+
+**Codex** (`~/.codex/config.toml`):
+
+```toml
+[mcp_servers.seven]
+url = "https://seven.googlar.com.br/api/mcp"
+bearer_token_env_var = "SEVEN_TOKEN"
+```
+
+Defina `SEVEN_TOKEN` no ambiente antes de abrir o Codex.
+
+## 5. Use
 
 Numa pasta com `index.html`, peça ao Claude:
 
